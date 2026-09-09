@@ -1,11 +1,11 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="cCpRqvIvHJ4UtfvwxR-q" name="第 1 页">
-    <mxGraphModel dx="1553" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="3500" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="3500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ttl" value="「我的项目」→ 创建项目 · 全流程（用户视角 × 前后端架构）" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="40" width="1620" height="30" as="geometry" />
+          <mxGeometry x="40" y="-10" width="1620" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pool1" value="创建项目全流程" style="swimlane;childLayout=stackLayout;horizontal=0;startSize=20;horizontalStack=1;resizeParent=1;resizeParentMax=0;collapsible=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="1620" height="3480" as="geometry" />
