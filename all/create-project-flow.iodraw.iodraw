@@ -107,7 +107,7 @@
           <mxGeometry x="1220" width="400" height="3320" as="geometry" />
         </mxCell>
         <mxCell id="d1" value="SELECT dw_project&lt;br&gt;isDeleted=0 软删过滤&lt;br&gt;keyword 模糊 + 分页" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacing=8;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="laneD" vertex="1">
-          <mxGeometry x="50" y="280" width="320" height="90" as="geometry" />
+          <mxGeometry x="70" y="550" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d2" value="SELECT km_category（预置分类）" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacing=8;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="laneD" vertex="1">
           <mxGeometry x="50" y="880" width="320" height="60" as="geometry" />
