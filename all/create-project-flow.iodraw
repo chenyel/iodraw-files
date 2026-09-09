@@ -101,7 +101,9 @@
           <mxGeometry x="50" y="2800" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="laneD" value="数据层" style="swimlane;startSize=30;horizontal=0;html=1;fillColor=#E1D5E7;" parent="pool1" vertex="1">
-          <mxGeometry x="1220" width="400" height="3480" as="geometry" />
+          <mxGeometry x="1220" width="400" height="3480" as="geometry">
+            <mxRectangle x="1220" width="40" height="3480" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="d1" value="SELECT dw_project&lt;br&gt;分页 + keyword 模糊查询" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="laneD" vertex="1">
           <mxGeometry x="50" y="520" width="320" height="70" as="geometry" />
