@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="5hH-it1gVai44DJa0fim" name="第 1 页">
-    <mxGraphModel dx="1953" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1620" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2658" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1620" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -502,6 +502,11 @@
         <mxCell id="dm2" value="🏗 架构原则（贯穿全部流程）&lt;br&gt;&lt;br&gt;① 权限以 KM 空间成员关系为唯一口径，DW 不自建权限&lt;br&gt;② 雪花 bizId 全局唯一，即前端路由参数&lt;br&gt;③ 全表软删 + purge 两级删除，回收站语义&lt;br&gt;④ defaultParams 是通用 JSON 容器，指令只是约定 key&lt;br&gt;⑤ 绑定即白名单：不绑=全量已发布知识&lt;br&gt;⑥ 创建事务保原子（项目+留言），绑定独立请求可补偿&lt;br&gt;⑦ 更新走 version 乐观锁，409 冲突前端回填重试" style="shape=note;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFF9C4;strokeColor=#D6B656;fontSize=13;size=20;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="640" y="4980" width="560" height="260" as="geometry" />
         </mxCell>
+        <UserObject label="/Users/chengxl_mt/dev/pro/intelligence-datastudio/create-project-flow.iodraw" link="/Users/chengxl_mt/dev/pro/intelligence-datastudio/create-project-flow.iodraw" id="Le2LWLkzBd_8VHDhb3gO-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="270" y="370" width="440" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
