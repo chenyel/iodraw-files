@@ -13,7 +13,7 @@
         <mxCell id="laneU" value="用户" style="swimlane;startSize=30;horizontal=0;html=1;fillColor=#FFE6CC;" parent="pool1" vertex="1">
           <mxGeometry x="20" width="400" height="3480" as="geometry" />
         </mxCell>
-        <mxCell id="u1" value="打开「我的项目」列表页&lt;br&gt;路由：/aids/dw/projects" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="laneU" vertex="1">
+        <mxCell id="u1" value="打开「项目」列表页&lt;br&gt;路由：/aids/dw/projects" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="laneU" vertex="1">
           <mxGeometry x="50" y="40" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="u2" value="浏览项目卡片（搜索 / 分页）&lt;br&gt;点击「+ 新建项目」" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="laneU" vertex="1">
