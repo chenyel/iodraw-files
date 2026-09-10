@@ -329,7 +329,7 @@
           <mxGeometry x="1150" y="420" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_bench_flow" value="bench_flow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="722" width="300" height="30" as="geometry" />
+          <mxGeometry x="1150" y="530" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e0_0" value="agent_id（一个 Agent 多个会话）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_agent" target="p0_dw_studio_session__3" edge="1">
           <mxGeometry relative="1" as="geometry" />
