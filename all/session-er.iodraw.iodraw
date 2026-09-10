@@ -5,55 +5,55 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="p0_dw_studio_session" value="dw_studio_session" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="40" width="300" height="446" as="geometry" />
+          <mxGeometry x="10" width="380" height="446" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="30" width="300" height="26" as="geometry" />
+          <mxGeometry y="30" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__1" value="UK  biz_id : varchar(64) · 会话业务唯一标识（Snowflake）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="56" width="300" height="26" as="geometry" />
+          <mxGeometry y="56" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__2" value="FK  workspace_id : varchar(64) · 所属空间 → km_space.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="82" width="300" height="26" as="geometry" />
+          <mxGeometry y="82" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__3" value="FK  agent_id : varchar(64) · 绑定 Agent → dw_agent.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="108" width="300" height="26" as="geometry" />
+          <mxGeometry y="108" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__4" value="FK  project_id : varchar(64) · 所属项目（冗余自 agent）→ dw_project.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="134" width="300" height="26" as="geometry" />
+          <mxGeometry y="134" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__5" value="conv_id : varchar(64) · 1024 会话 ID（EXECUTOR，首次 sendAi 懒加载）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="160" width="300" height="26" as="geometry" />
+          <mxGeometry y="160" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__6" value="★ qid : varchar(128) · 本次 1024 Callback 请求唯一标识" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="186" width="300" height="26" as="geometry" />
+          <mxGeometry y="186" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__7" value="★ client_request_id : varchar(128) · 客户端创建请求幂等键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="212" width="300" height="26" as="geometry" />
+          <mxGeometry y="212" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__8" value="★ runtime_status : varchar(32) · 1024 运行状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="238" width="300" height="26" as="geometry" />
+          <mxGeometry y="238" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__9" value="ext_json : mediumtext · 其他 role 的 conv_id（coder_conv_id 等，JSON_SET 只追加）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="264" width="300" height="26" as="geometry" />
+          <mxGeometry y="264" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__10" value="title : varchar(256) · 会话标题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="290" width="300" height="26" as="geometry" />
+          <mxGeometry y="290" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__11" value="creator_mis : varchar(64) · 创建者 MIS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="316" width="300" height="26" as="geometry" />
+          <mxGeometry y="316" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__12" value="status : varchar(16) · active / archived" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="342" width="300" height="26" as="geometry" />
+          <mxGeometry y="342" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__13" value="version : int · ext_json CAS 乐观锁版本号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="368" width="300" height="26" as="geometry" />
+          <mxGeometry y="368" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__14" value="is_deleted : tinyint(1) · 软删除标记" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="394" width="300" height="26" as="geometry" />
+          <mxGeometry y="394" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__15" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="420" width="300" height="26" as="geometry" />
+          <mxGeometry y="420" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message" value="dw_studio_message" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-400" y="-230" width="300" height="316" as="geometry" />
