@@ -31,7 +31,7 @@
         <mxCell id="p0_dw_studio_session__7" value="★ client_request_id : varchar(128) · 客户端创建请求幂等键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FF00FF;" parent="p0_dw_studio_session" vertex="1">
           <mxGeometry y="212" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_session__8" value="★ runtime_status : varchar(32) · 1024 运行状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FF00FF;" parent="p0_dw_studio_session" vertex="1">
+        <mxCell id="p0_dw_studio_session__8" value="&lt;span style=&quot;color: rgb(153, 153, 153);&quot;&gt;✗&amp;nbsp;&lt;/span&gt;★ runtime_status : varchar(32) · 1024 运行状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FF00FF;" parent="p0_dw_studio_session" vertex="1">
           <mxGeometry y="238" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__9" value="ext_json : mediumtext · 其他 role 的 conv_id（coder_conv_id 等，JSON_SET 只追加）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
