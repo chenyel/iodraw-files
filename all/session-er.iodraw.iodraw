@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram id="sess3312466231" name="1. Studio 会话域（含 task-stream 新增）">
-    <mxGraphModel dx="4207" dy="2922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
+    <mxGraphModel dx="3649" dy="2639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry y="486" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="-460" width="370" height="590" as="geometry" />
+          <mxGeometry x="1090" y="-460" width="370" height="590" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
@@ -293,7 +293,7 @@
           <mxGeometry x="410" y="120" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_bench_flow" value="bench_flow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="120" y="950" width="300" height="30" as="geometry" />
+          <mxGeometry x="90" y="914" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e0_0" value="agent_id（一个 Agent 多个会话）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_agent" target="p0_dw_studio_session__3" edge="1">
           <mxGeometry relative="1" as="geometry">
