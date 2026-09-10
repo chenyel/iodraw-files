@@ -703,7 +703,7 @@
           <mxGeometry y="186" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_step" value="bench_step" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="780" y="40" width="280" height="264" as="geometry" />
+          <mxGeometry x="990" y="-50" width="280" height="264" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_step__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_5._bench_step" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
