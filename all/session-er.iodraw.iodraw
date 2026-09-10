@@ -92,7 +92,7 @@
           <mxGeometry y="346" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event" value="dw_studio_stream_event【1024回调的原始帧】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-360" width="340" height="338" as="geometry" />
+          <mxGeometry x="30" y="-360" width="340" height="342" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_stream_event" vertex="1">
           <mxGeometry y="30" width="340" height="26" as="geometry" />
@@ -116,13 +116,13 @@
           <mxGeometry y="234" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__7" value="event_type : varchar(64) · 统一事件类型：meta/thinking/delta/done/error，" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="260" width="340" height="26" as="geometry" />
+          <mxGeometry y="260" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__8" value="payload_json : mediumtext · 事件负载 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="286" width="340" height="26" as="geometry" />
+          <mxGeometry y="290" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__9" value="created_time : datetime · 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="312" width="340" height="26" as="geometry" />
+          <mxGeometry y="316" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="380" y="660" width="300" height="510" as="geometry" />
