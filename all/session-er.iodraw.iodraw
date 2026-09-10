@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram id="sess3312466231" name="1. Studio 会话域（含 task-stream 新增）">
-    <mxGraphModel dx="1995" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="p0_dw_studio_message__5" value="role : varchar(32) · USER / ASSISTANT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="186" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_message__6" value="content : mediumtext · 展示文本；REALTIME delta 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
+        <mxCell id="p0_dw_studio_message__6" value="content[] : mediumtext · 展示文本；REALTIME delta 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="212" width="370" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__7" value="thinking_content : mediumtext · REALTIME thinking 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
@@ -381,6 +381,9 @@
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-29" value="发送时造骨架，回调时填血肉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-610" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
