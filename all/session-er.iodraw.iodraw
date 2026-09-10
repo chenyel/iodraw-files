@@ -56,7 +56,7 @@
           <mxGeometry y="420" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message" value="dw_studio_message【消息表】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-240" width="370" height="380" as="geometry" />
+          <mxGeometry x="-680" y="-350" width="370" height="380" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
