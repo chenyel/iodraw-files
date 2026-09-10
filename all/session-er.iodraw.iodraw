@@ -56,7 +56,7 @@
           <mxGeometry y="420" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message" value="dw_studio_message" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="-240" width="300" height="342" as="geometry" />
+          <mxGeometry x="-580" y="-240" width="300" height="372" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -77,19 +77,19 @@
           <mxGeometry y="186" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__6" value="content : mediumtext · 展示文本；REALTIME delta 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="212" width="300" height="26" as="geometry" />
+          <mxGeometry y="212" width="300" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__7" value="thinking_content : mediumtext · REALTIME thinking 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="238" width="300" height="26" as="geometry" />
+          <mxGeometry y="250" width="300" height="32" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__8" value="status : varchar(32) · STREAMING / COMPLETED / FAILED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="264" width="300" height="26" as="geometry" />
+          <mxGeometry y="282" width="300" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__9" value="error_message : varchar(1024) · 失败原因" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="290" width="300" height="26" as="geometry" />
+          <mxGeometry y="320" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__10" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="316" width="300" height="26" as="geometry" />
+          <mxGeometry y="346" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event" value="dw_studio_stream_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="30" y="-360" width="340" height="306" as="geometry" />
