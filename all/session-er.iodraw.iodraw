@@ -445,7 +445,7 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-97" value="PK  biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=-0.002;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HjvIDd6hiY2p9tp-m5TG-96" source="HjvIDd6hiY2p9tp-m5TG-76">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="20" as="sourcePoint" />
             <mxPoint x="-140" y="313" as="targetPoint" />
