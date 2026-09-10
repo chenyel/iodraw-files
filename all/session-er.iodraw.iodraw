@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram id="sess3312466231" name="1. Studio 会话域（含 task-stream 新增）">
-    <mxGraphModel dx="2249" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
+    <mxGraphModel dx="2152" dy="2221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,37 +92,37 @@
           <mxGeometry y="346" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event" value="dw_studio_stream_event【1024回调的原始帧】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-450" width="400" height="352" as="geometry" />
+          <mxGeometry y="-450" width="430" height="352" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="30" width="400" height="26" as="geometry" />
+          <mxGeometry y="30" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__1" value="UK  event_id : varchar(128) · DataAgent 事件 ID，幂等闸门：值=qid+sha256(帧全文)，重复帧INSERT IGNORE静默丢弃，uk_event_id唯一键兜底" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="56" width="400" height="58" as="geometry" />
+          <mxGeometry y="56" width="430" height="58" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__2" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="114" width="400" height="38" as="geometry" />
+          <mxGeometry y="114" width="430" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__3" value="request_id : varchar(128) · 客户端本轮请求幂等 ID（uk_request_sequence: request_id+sequence_no）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="152" width="400" height="30" as="geometry" />
+          <mxGeometry y="152" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__4" value="&lt;font color=&quot;#b266ff&quot;&gt;qid : varchar(128) · 1024 Callback qid&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="182" width="400" height="26" as="geometry" />
+          <mxGeometry y="182" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__5" value="conversation_id : varchar(64) · 1024 conversationId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="208" width="400" height="26" as="geometry" />
+          <mxGeometry y="208" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__6" value="sequence_no : bigint · 请求内单调递增序号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="234" width="400" height="26" as="geometry" />
+          <mxGeometry y="234" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__7" value="event_type : varchar(64) · 统一事件类型：meta/thinking/delta/done/error/tool/audit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="260" width="400" height="40" as="geometry" />
+          <mxGeometry y="260" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__8" value="payload_json : mediumtext · 事件负载 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="300" width="400" height="26" as="geometry" />
+          <mxGeometry y="300" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__9" value="created_time : datetime · 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="326" width="400" height="26" as="geometry" />
+          <mxGeometry y="326" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="380" y="660" width="300" height="510" as="geometry" />
@@ -378,6 +378,9 @@
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-28" value="&lt;div data-pm-slice=&quot;1 1 []&quot; data-is-preview-mode=&quot;false&quot; data-line-wrapping=&quot;false&quot; data-local-expand=&quot;true&quot; data-node-id=&quot;0a29aeb0-7482-4bd1-9683-8a8df0169058&quot; data-diff-id=&quot;ct-diff-id-ecc35243-6f0b-45da-9f8e-b9843c7f0e30&quot; data-expand=&quot;false&quot; data-title=&quot;完整示例（逐帧）&quot; data-theme=&quot;xq-light&quot; data-language=&quot;JSON&quot; spellcheck=&quot;false&quot; class=&quot;ct-code&quot;&gt;&lt;pre&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;meta&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;conversationId&quot;:&quot;conv_abc123&quot;,&quot;model&quot;:&quot;deepseek-r1&quot;,&quot;source&quot;:&quot;OPEN_API&quot;}&lt;/span&gt;&lt;/div&gt;&lt;code&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;thinking&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:0,&quot;content&quot;:&quot;用户想要一首关于春天的诗...&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;thinking&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:1,&quot;content&quot;:&quot;我需要创作一首七言绝句&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;tool&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:0,&quot;extension&quot;:{&quot;toolName&quot;:&quot;web_search&quot;,&quot;parameters&quot;:{&quot;query&quot;:&quot;春天意象诗词&quot;}}}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;delta&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:0,&quot;content&quot;:&quot;春风&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;delta&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:1,&quot;content&quot;:&quot;拂柳绿丝绦&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;delta&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;index&quot;:2,&quot;content&quot;:&quot;，细雨润花红锦袍。&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;audit&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;pass&quot;:true}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;{&quot;type&quot;:&quot;done&quot;,&quot;qid&quot;:&quot;q001&quot;,&quot;conversationId&quot;:&quot;conv_abc123&quot;,&quot;messageId&quot;:&quot;msg_xyz&quot;,&quot;model&quot;:&quot;deepseek-r1&quot;,&quot;promptTokens&quot;:520,&quot;completionTokens&quot;:148,&quot;totalTokens&quot;:668}&lt;/span&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-880" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
