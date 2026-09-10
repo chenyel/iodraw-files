@@ -242,7 +242,7 @@
           <mxGeometry y="554" width="370" height="36" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report" value="dw_a2ui_report" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="-540" y="230" width="300" height="316" as="geometry" />
+          <mxGeometry x="-570" y="210" width="300" height="316" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_a2ui_report" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -610,7 +610,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sess6698794134" name="3. VNC 会话域">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="558" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="558" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
