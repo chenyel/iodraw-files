@@ -56,40 +56,40 @@
           <mxGeometry y="420" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message" value="dw_studio_message" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="-240" width="400" height="380" as="geometry" />
+          <mxGeometry x="-590" y="-240" width="310" height="380" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="30" width="400" height="26" as="geometry" />
+          <mxGeometry y="30" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__1" value="UK  message_id : varchar(128) · 消息业务 ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="56" width="400" height="26" as="geometry" />
+          <mxGeometry y="56" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__2" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="82" width="400" height="38" as="geometry" />
+          <mxGeometry y="82" width="310" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__3" value="request_id : varchar(128) · 客户端本轮请求幂等 ID（uk_request_role: request_id+role）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="120" width="400" height="40" as="geometry" />
+          <mxGeometry y="120" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__4" value="qid : varchar(128) · 1024 Callback qid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="160" width="400" height="26" as="geometry" />
+          <mxGeometry y="160" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__5" value="role : varchar(32) · USER / ASSISTANT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="186" width="400" height="26" as="geometry" />
+          <mxGeometry y="186" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__6" value="content : mediumtext · 展示文本；REALTIME delta 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="212" width="400" height="38" as="geometry" />
+          <mxGeometry y="212" width="310" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__7" value="thinking_content : mediumtext · REALTIME thinking 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="250" width="400" height="32" as="geometry" />
+          <mxGeometry y="250" width="310" height="32" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__8" value="status : varchar(32) · STREAMING / COMPLETED / FAILED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="282" width="400" height="38" as="geometry" />
+          <mxGeometry y="282" width="310" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__9" value="error_message : varchar(1024) · 失败原因" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="320" width="400" height="26" as="geometry" />
+          <mxGeometry y="320" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__10" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
-          <mxGeometry y="346" width="400" height="34" as="geometry" />
+          <mxGeometry y="346" width="310" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event" value="dw_studio_stream_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="30" y="-360" width="340" height="306" as="geometry" />
@@ -179,7 +179,7 @@
           <mxGeometry y="484" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="780" y="-54" width="370" height="580" as="geometry" />
+          <mxGeometry x="780" y="-54" width="370" height="590" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
@@ -239,7 +239,7 @@
           <mxGeometry y="524" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__19" value="version / is_deleted / created_time / updated_time · 乐观锁 / 软删 / 时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="554" width="370" height="26" as="geometry" />
+          <mxGeometry y="554" width="370" height="36" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report" value="dw_a2ui_report" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-540" y="230" width="300" height="316" as="geometry" />
