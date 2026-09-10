@@ -374,7 +374,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-12" value="dw_studio_stream_event【1024回调原始帧：只INSERT永不UPDATE，流水/证据】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-740" width="450" height="416" as="geometry" />
+          <mxGeometry x="270" y="-740" width="450" height="500" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-13" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
           <mxGeometry y="30" width="450" height="26" as="geometry" />
@@ -404,10 +404,10 @@
           <mxGeometry y="332" width="450" height="38" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-22" value="created_time : datetime · 帧入库时刻（非1024侧发生时刻，发生时刻在payload内）。idx_session_created 第二列" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="370" width="450" height="26" as="geometry" />
+          <mxGeometry y="370" width="450" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-23" value="索引：uk_event_id 幂等｜uk_request_sequence 轮内序唯一+断点定位｜idx_session_created 捞帧路径（待开口）｜idx_qid 半闲置｜欠账：零SELECT纯写不读" style="text;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#666666;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="396" width="450" height="20" as="geometry" />
+          <mxGeometry y="440" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
