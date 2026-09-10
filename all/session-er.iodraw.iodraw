@@ -179,7 +179,7 @@
           <mxGeometry y="446" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="870" y="-220" width="300" height="550" as="geometry" />
+          <mxGeometry x="830" y="-90" width="300" height="554" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -211,35 +211,35 @@
         <mxCell id="p0_dw_studio_tool_event__9" value="description : varchar(512) · toolArguments.description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="264" width="300" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="p0_dw_studio_tool_event__10" value="arguments_json : longtext · toolArguments 全量（脱敏+截断）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
+          <mxGeometry y="290" width="300" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="p0_dw_studio_tool_event__11" value="result_text : longtext · toolResult 全量（脱敏+截断）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="290" width="300" height="26" as="geometry" />
+          <mxGeometry y="320" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__12" value="success : tinyint(1) · 是否成功（POST 有值）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="316" width="300" height="26" as="geometry" />
+          <mxGeometry y="346" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__13" value="execution_time_ms : int · 执行耗时（ms）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="342" width="300" height="26" as="geometry" />
+          <mxGeometry y="372" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__14" value="sub_agent : tinyint(1) · 是否子 agent 触发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="368" width="300" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="p0_dw_studio_tool_event__10" value="arguments_json : longtext · toolArguments 全量（脱敏+截断）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="394" width="300" height="26" as="geometry" />
+          <mxGeometry y="398" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__15" value="subagent_name : varchar(128) · 子 agent 名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="420" width="300" height="26" as="geometry" />
+          <mxGeometry y="424" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__16" value="user_mis : varchar(64) · 触发用户 MIS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="446" width="300" height="26" as="geometry" />
+          <mxGeometry y="450" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__17" value="ac_dedup : varchar(160) · 幂等键（uk_session_ac: session_id+ac_dedup+event_type）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="472" width="300" height="26" as="geometry" />
+          <mxGeometry y="476" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__18" value="tool_call_count / total_tokens / e2e_ms : int · AGENT_COMPLETE 汇总" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="498" width="300" height="26" as="geometry" />
+          <mxGeometry y="502" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__19" value="version / is_deleted / created_time / updated_time · 乐观锁 / 软删 / 时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="524" width="300" height="26" as="geometry" />
+          <mxGeometry y="528" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report" value="dw_a2ui_report" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-540" y="230" width="300" height="316" as="geometry" />
