@@ -431,7 +431,7 @@
           <mxGeometry y="388" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-93" value="km_entry【知识条目】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-1400" y="-50" width="200" height="82" as="geometry" />
+          <mxGeometry x="-1460" y="-40" width="200" height="82" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-94" value="PK  biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-93">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
@@ -457,10 +457,12 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-101" value="content=S3 key · is_published" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-99">
           <mxGeometry y="56" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-103" value="asset_type=KM_ENTRY 时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-71" target="HjvIDd6hiY2p9tp-m5TG-94">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-103" value="asset_type=KM_ENTRY 时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1115" as="sourcePoint" />
+            <mxPoint x="-1490" y="173" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1090" y="37" />
+              <mxPoint x="-1320" y="207" />
             </Array>
           </mxGeometry>
         </mxCell>
