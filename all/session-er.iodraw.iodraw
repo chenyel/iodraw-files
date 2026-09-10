@@ -355,17 +355,14 @@
         <mxCell id="e0_7" value="session_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_studio_session__0" target="p0_dw_a2ui_chart_cell__2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e0_8" value="source_cell_id（图表数据源）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_studio_cell__0" target="p0_dw_a2ui_chart_cell__5" edge="1">
+        <mxCell id="e0_8" value="source_cell_id（图表数据源）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p0_dw_studio_cell__0" target="p0_dw_a2ui_chart_cell__3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e0_9" value="flow_id（bench AI 产出归属）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_bench_flow" target="p0_dw_studio_cell__12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e0_10" value="flow_id（bench 场景）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="884.5" as="sourcePoint" />
-            <mxPoint x="-260" y="785.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e0_10" value="flow_id（bench 场景）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_bench_flow" target="p0_dw_a2ui_chart_cell__4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
