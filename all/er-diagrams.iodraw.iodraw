@@ -679,7 +679,7 @@
           <mxGeometry y="186" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow" value="bench_flow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-240" width="280" height="212" as="geometry" />
+          <mxGeometry x="430" y="-240" width="280" height="216" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_5._bench_flow" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
@@ -694,13 +694,13 @@
           <mxGeometry y="108" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow__entry_type" value="entry_type : varchar · distill 手动蒸馏 / knowledge 知识库加载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t_5._bench_flow" vertex="1">
-          <mxGeometry y="134" width="280" height="26" as="geometry" />
+          <mxGeometry y="134" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow__content" value="content : mediumtext · knowledge 模式存条目原文" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t_5._bench_flow" vertex="1">
-          <mxGeometry y="160" width="280" height="26" as="geometry" />
+          <mxGeometry y="164" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow__conv_id" value="conv_id : varchar · 流程独立 1024 会话, 懒加载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t_5._bench_flow" vertex="1">
-          <mxGeometry y="186" width="280" height="26" as="geometry" />
+          <mxGeometry y="190" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_step" value="bench_step" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="430" y="50" width="280" height="264" as="geometry" />
@@ -733,7 +733,7 @@
           <mxGeometry y="238" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow_result" value="bench_flow_result" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-332" width="280" height="160" as="geometry" />
+          <mxGeometry x="850" y="-332" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow_result__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_5._bench_flow_result" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
