@@ -89,7 +89,7 @@
           <mxGeometry y="326" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="880" y="290" width="300" height="512" as="geometry" />
+          <mxGeometry x="830" y="320" width="300" height="512" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_cell" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -242,7 +242,7 @@
           <mxGeometry y="340" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell" value="dw_a2ui_chart_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="618" width="300" height="520" as="geometry" />
+          <mxGeometry x="-750" y="740" width="300" height="520" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -498,6 +498,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-111" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
