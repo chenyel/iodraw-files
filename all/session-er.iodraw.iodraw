@@ -357,7 +357,7 @@
           <mxGeometry x="-780" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-33" value="dw_studio_message【消息表：一轮=request_id+2行】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="-460" width="370" height="538" as="geometry" />
+          <mxGeometry x="-640" y="-460" width="370" height="590" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-34" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
@@ -395,8 +395,11 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-45" value="created_time / updated_time : datetime · USER行created=轮开始；ASSISTANT行updated=最后帧时刻" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
           <mxGeometry y="424" width="370" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-110" value="◆ knowledge_refs_json : text · 本轮生效资产快照 [{assetType,assetId,assetVersion,title}]，发送时服务端从绑定表/项目圈选解析冻结（空=无注入）。当前集读绑定表，历史轮读此快照" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
+          <mxGeometry y="458" width="370" height="52" as="geometry" />
+        </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-46" value="索引：uk_request_role(request_id,role)幂等｜uk_message_id｜idx_session_created 查询路径｜写入：upsertTailBlock（换尾/新开）+ appendToolBlock（追加）" style="text;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#666666;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
-          <mxGeometry y="458" width="370" height="80" as="geometry" />
+          <mxGeometry y="510" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-71" value="dw_session_asset_ref【Studio会话-资产绑定表：会话自定义生效集】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-1300" y="-100" width="410" height="414" as="geometry" />
@@ -493,9 +496,6 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-110" value="created_time / updated_time : datetime · USER行created=轮开始；ASSISTANT行updated=最后帧时刻" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-26" width="370" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
