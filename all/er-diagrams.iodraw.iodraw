@@ -679,7 +679,7 @@
           <mxGeometry y="186" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow" value="bench_flow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-172" width="280" height="212" as="geometry" />
+          <mxGeometry x="450" y="-190" width="280" height="212" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_flow__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_5._bench_flow" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
@@ -757,7 +757,7 @@
           <mxGeometry x="50" y="310" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_5._dw_a2ui_chart_cell" value="dw_a2ui_chart_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="410" y="302" width="280" height="30" as="geometry" />
+          <mxGeometry y="-172" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e5._0" value="绑定 Agent" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="t_5._dw_agent" target="t_5._bench_session__agent_id" edge="1">
           <mxGeometry relative="1" as="geometry" />
