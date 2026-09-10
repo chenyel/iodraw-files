@@ -754,7 +754,7 @@
           <mxGeometry x="-10" y="220" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_5._dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="50" y="310" width="280" height="30" as="geometry" />
+          <mxGeometry x="-10" y="-240" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_5._dw_a2ui_chart_cell" value="dw_a2ui_chart_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
           <mxGeometry y="-172" width="280" height="30" as="geometry" />
