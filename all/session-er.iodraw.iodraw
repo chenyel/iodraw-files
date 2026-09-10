@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram id="sess3312466231" name="1. Studio 会话域（含 task-stream 新增）">
-    <mxGraphModel dx="2042" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
+    <mxGraphModel dx="2042" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry y="346" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event" value="dw_studio_stream_event【1024回调的原始帧】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-360" width="340" height="342" as="geometry" />
+          <mxGeometry x="30" y="-360" width="340" height="352" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_stream_event" vertex="1">
           <mxGeometry y="30" width="340" height="26" as="geometry" />
@@ -116,13 +116,13 @@
           <mxGeometry y="234" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__7" value="event_type : varchar(64) · 统一事件类型：meta/thinking/delta/done/error，" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="260" width="340" height="30" as="geometry" />
+          <mxGeometry y="260" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__8" value="payload_json : mediumtext · 事件负载 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="290" width="340" height="26" as="geometry" />
+          <mxGeometry y="300" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__9" value="created_time : datetime · 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
-          <mxGeometry y="316" width="340" height="26" as="geometry" />
+          <mxGeometry y="326" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="380" y="660" width="300" height="510" as="geometry" />
@@ -372,42 +372,6 @@
         </mxCell>
         <mxCell id="e0_10" value="flow_id（bench 场景）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_bench_flow" target="p0_dw_a2ui_chart_cell__4" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-12" value="dw_studio_stream_event【1024回调原始帧：只INSERT永不UPDATE，流水/证据】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-740" width="450" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-13" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="30" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-14" value="◆ event_id : varchar(128) · 幂等闸门：值=qid+sha256(帧全文)，重复帧INSERT IGNORE静默丢弃，uk_event_id唯一键兜底" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="56" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-15" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id（idx_session_created 第一列，捞帧/补偿路径）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="94" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-16" value="◆ request_id : varchar(128) · 轮内分段锚点（uk_request_sequence 第一列）。取自session.client_request_id——该列会被startStream覆盖，隐患点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="132" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-17" value="qid : varchar(128) · 三级归属第三级（会话→轮→提交）。idx_qid 有索引，event_id原料 + persist入口守卫比对对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="170" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-18" value="✗ conversation_id : varchar(64) · 死冗余：与session_id一一对应（session.conv_id可换算），无索引无查询，建议删" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="208" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-19" value="⚠ sequence_no : bigint · 轮内帧序（断点续传基础）。生成=MAX+1：并发帧撞uk_request_sequence后INSERT IGNORE静默丢帧，丢done帧=会话锁死。需改为失败重试或独立发号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="246" width="450" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-20" value="event_type : varchar(64) · 投影路由依据：meta/thinking/delta/done/error，projectFrame按此分发到message/session表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="294" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-21" value="payload_json : mediumtext · 帧原文一字不改。审计证据/补偿重推/过程回放的唯一原料——这张表存在的全部意义" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="332" width="450" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-22" value="created_time : datetime · 帧入库时刻（非1024侧发生时刻，发生时刻在payload内）。idx_session_created 第二列" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="370" width="450" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-23" value="索引：uk_event_id 幂等｜uk_request_sequence 轮内序唯一+断点定位｜idx_session_created 捞帧路径（待开口）｜idx_qid 半闲置｜欠账：零SELECT纯写不读" style="text;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#666666;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
-          <mxGeometry y="440" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
