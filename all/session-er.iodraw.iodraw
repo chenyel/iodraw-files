@@ -496,7 +496,7 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-71" target="HjvIDd6hiY2p9tp-m5TG-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-105" value="(entry_biz_id,version)（版本锁定）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-92" target="HjvIDd6hiY2p9tp-m5TG-100">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-105" value="(entry_biz_id,version)（版本锁定）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-71" target="HjvIDd6hiY2p9tp-m5TG-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-106" value="生效集解析（每轮发送，三级fallback）：会话绑定非空→用会话集｜绑定空且会话挂项目→继承项目全部圈选 dw_project_asset_ref｜绑定空且无项目→[] 不注入。快照冻结进 message.knowledge_refs_json" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#666666;whiteSpace=wrap;html=1;" vertex="1" parent="1">
