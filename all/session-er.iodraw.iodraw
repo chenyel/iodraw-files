@@ -115,7 +115,7 @@
         <mxCell id="p0_dw_studio_stream_event__6" value="sequence_no : bigint · 请求内单调递增序号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
           <mxGeometry y="234" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_stream_event__7" value="event_type : varchar(64) · 统一事件类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
+        <mxCell id="p0_dw_studio_stream_event__7" value="event_type : varchar(64) · 统一事件类型：meta/thinking/delta/done/error，" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
           <mxGeometry y="260" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_stream_event__8" value="payload_json : mediumtext · 事件负载 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_stream_event" vertex="1">
@@ -374,7 +374,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-12" value="dw_studio_stream_event【1024回调原始帧：只INSERT永不UPDATE，流水/证据】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="-650" width="450" height="416" as="geometry" />
+          <mxGeometry x="270" y="-740" width="450" height="416" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-13" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-12">
           <mxGeometry y="30" width="450" height="26" as="geometry" />
