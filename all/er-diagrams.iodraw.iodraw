@@ -650,12 +650,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="er9185869443" name="5. Bench 制式工作台（data-agent-dw 模块）">
-    <mxGraphModel dx="1482" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="482" math="0" shadow="0">
+    <mxGraphModel dx="1882" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="482" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t_5._bench_session" value="bench_session" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="280" height="212" as="geometry" />
+          <mxGeometry x="-10" y="-110" width="280" height="212" as="geometry" />
         </mxCell>
         <mxCell id="t_5._bench_session__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_5._bench_session" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
