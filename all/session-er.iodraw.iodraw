@@ -344,7 +344,7 @@
           <mxGeometry x="-480" y="-880" width="600" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-29" value="发送时造骨架，回调时填血肉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-420" width="120" height="60" as="geometry" />
+          <mxGeometry x="-520" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-31" value="帮我查下天气；&lt;div&gt;调用天气工具；&lt;/div&gt;&lt;div&gt;天气良好&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;调用工具B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="-140" width="120" height="60" as="geometry" />
@@ -353,7 +353,7 @@
           <mxGeometry x="-890" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-33" value="dw_studio_message【消息表：一轮=request_id+2行】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="-340" width="370" height="538" as="geometry" />
+          <mxGeometry x="-650" y="-350" width="370" height="544" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-34" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
@@ -386,13 +386,13 @@
           <mxGeometry y="360" width="370" height="38" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-44" value="error_message : varchar(1024) · 失败原因（仅fail()写入，与status=FAILED同生同灭）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
-          <mxGeometry y="398" width="370" height="26" as="geometry" />
+          <mxGeometry y="398" width="370" height="32" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-45" value="created_time / updated_time : datetime · USER行created=轮开始；ASSISTANT行updated=最后帧时刻" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
-          <mxGeometry y="424" width="370" height="34" as="geometry" />
+          <mxGeometry y="430" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-46" value="索引：uk_request_role(request_id,role)幂等｜uk_message_id｜idx_session_created 查询路径｜写入：upsertTailBlock（换尾/新开）+ appendToolBlock（追加）" style="text;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#666666;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
-          <mxGeometry y="458" width="370" height="80" as="geometry" />
+          <mxGeometry y="464" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
