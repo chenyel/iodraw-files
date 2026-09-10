@@ -125,7 +125,7 @@
           <mxGeometry y="326" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="380" y="640" width="300" height="510" as="geometry" />
+          <mxGeometry x="380" y="640" width="300" height="512" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_cell" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -134,52 +134,52 @@
           <mxGeometry y="56" width="300" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__2" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="90" width="300" height="28" as="geometry" />
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__3" value="FK  workspace_id : varchar(64) · 冗余，便于权限校验 → km_space.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="118" width="300" height="32" as="geometry" />
+          <mxGeometry y="120" width="300" height="32" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__4" value="type : varchar(16) · sql / doc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="150" width="300" height="26" as="geometry" />
+          <mxGeometry y="152" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__5" value="title : varchar(256) · cell 标题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="176" width="300" height="26" as="geometry" />
+          <mxGeometry y="178" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__6" value="content : mediumtext · SQL 语句或文档 Markdown" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="202" width="300" height="26" as="geometry" />
+          <mxGeometry y="204" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__7" value="sort_order : int unsigned · 排序序号，从 0 递增" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="228" width="300" height="26" as="geometry" />
+          <mxGeometry y="230" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__8" value="based_on : varchar(2048) · AI 产出引用的 cellId，逗号分隔（弱引用本表）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="254" width="300" height="32" as="geometry" />
+          <mxGeometry y="256" width="300" height="32" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__9" value="source : varchar(16) · user 手动 / ai 产出" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="286" width="300" height="26" as="geometry" />
+          <mxGeometry y="288" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__10" value="result_json : mediumtext · SQL 执行结果 JSON（{columns, rows}）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="312" width="300" height="30" as="geometry" />
+          <mxGeometry y="314" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__11" value="version : int · 乐观锁版本号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="342" width="300" height="26" as="geometry" />
+          <mxGeometry y="344" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__12" value="FK  flow_id : varchar(64) · bench 流程 → bench_flow.biz_id（bench 产出，studio 为 NULL）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="368" width="300" height="34" as="geometry" />
+          <mxGeometry y="370" width="300" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__13" value="FK  bound_sql_id : varchar(64) · 绑定全局 SQL → dw_sql_library.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="402" width="300" height="30" as="geometry" />
+          <mxGeometry y="404" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__14" value="chart_config : mediumtext · 图表可视化配置 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="432" width="300" height="26" as="geometry" />
+          <mxGeometry y="434" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__15" value="is_deleted : tinyint(1) · 软删除标记" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="458" width="300" height="26" as="geometry" />
+          <mxGeometry y="460" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__16" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_cell" vertex="1">
-          <mxGeometry y="484" width="300" height="26" as="geometry" />
+          <mxGeometry y="486" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="830" y="-320" width="370" height="590" as="geometry" />
+          <mxGeometry x="920" y="-200" width="370" height="590" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
