@@ -70,7 +70,7 @@
         <mxCell id="p0_dw_studio_message__3" value="request_id : varchar(128) · 客户端本轮请求幂等 ID（uk_request_role: request_id+role）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="120" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_message__4" value="qid : varchar(128) · 1024 Callback qid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
+        <mxCell id="p0_dw_studio_message__4" value="&lt;span style=&quot;color: rgb(153, 153, 153);&quot;&gt;✗&amp;nbsp;&amp;nbsp;&lt;/span&gt;qid : varchar(128) · 1024 Callback qid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="160" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__5" value="role : varchar(32) · USER / ASSISTANT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
