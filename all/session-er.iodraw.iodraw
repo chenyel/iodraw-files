@@ -79,7 +79,7 @@
         <mxCell id="p0_dw_studio_message__6" value="content[] : mediumtext · 展示文本；REALTIME delta 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="212" width="370" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_message__7" value="thinking_content : mediumtext · REALTIME thinking 全量覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
+        <mxCell id="p0_dw_studio_message__7" value="&lt;span style=&quot;color: rgb(153, 153, 153);&quot;&gt;✗ thinking_content : mediumtext · 退役候选：thinking并入content[]块后冗余，先留兼容后删&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
           <mxGeometry y="250" width="370" height="32" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message__8" value="status : varchar(32) · STREAMING / COMPLETED / FAILED" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_message" vertex="1">
