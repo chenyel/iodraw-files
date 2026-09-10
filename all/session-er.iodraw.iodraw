@@ -358,7 +358,7 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-32" value="帮我查下天气；天气良好&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div&gt;调用天气工具；&lt;span style=&quot;background-color: initial;&quot;&gt;调用工具B&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-500" y="-780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-33" value="dw_studio_message【消息表（轮次级）】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-33" value="dw_studio_message【消息表（轮次级-每轮每新）】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-360" y="-830" width="370" height="590" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-34" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
