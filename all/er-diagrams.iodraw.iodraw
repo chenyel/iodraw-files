@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="12">
   <diagram id="er2647279324" name="1. 知识管理（KM，data-agent-km 模块）">
-    <mxGraphModel dx="926" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="586" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="586" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -781,7 +781,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="er8397098946" name="6. DW 知识导入与蒸馏（data-agent-dw 模块）">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="508" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="508" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -921,7 +921,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="er1384247504" name="7. 数字员工主数据（data-agent-mg / data-agent-starter 模块）">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
