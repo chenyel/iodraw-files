@@ -342,7 +342,7 @@
         <mxCell id="e0_1" value="project_id（冗余，按项目筛选）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_project" target="p0_dw_studio_session__4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e0_2" value="session_id（合并消息表）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_studio_session__0" target="p0_dw_studio_message__2" edge="1">
+        <mxCell id="e0_2" value="session_id（合并消息表）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_studio_session__0" target="HjvIDd6hiY2p9tp-m5TG-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e0_3" value="session_id（任务流式事件）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_studio_session__0" target="p0_dw_studio_stream_event__2" edge="1">
