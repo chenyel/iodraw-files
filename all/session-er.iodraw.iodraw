@@ -329,7 +329,7 @@
           <mxGeometry x="160" y="516" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_bench_flow" value="bench_flow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="792" width="300" height="30" as="geometry" />
+          <mxGeometry x="-90" y="862" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e0_0" value="agent_id（一个 Agent 多个会话）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_dw_agent" target="p0_dw_studio_session__3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -363,7 +363,7 @@
         <mxCell id="e0_8" value="source_cell_id（图表数据源）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p0_dw_studio_cell__0" target="p0_dw_a2ui_chart_cell__3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e0_9" value="flow_id（bench AI 产出归属）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_bench_flow" target="p0_dw_studio_cell__12" edge="1">
+        <mxCell id="e0_9" value="flow_id（bench AI 产出归属）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p0_bench_flow" target="p0_dw_studio_cell__6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="740" />
