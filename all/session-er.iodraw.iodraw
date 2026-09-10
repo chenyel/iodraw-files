@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="p0_dw_studio_session" value="dw_studio_session" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="10" width="480" height="446" as="geometry" />
+          <mxGeometry x="10" width="480" height="420" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_session__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_session" vertex="1">
           <mxGeometry y="30" width="480" height="26" as="geometry" />
@@ -46,14 +46,11 @@
         <mxCell id="p0_dw_studio_session__12" value="status : varchar(16) · active / archived" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
           <mxGeometry y="342" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_session__13" value="version : int · ext_json CAS 乐观锁版本号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
+        <mxCell id="p0_dw_studio_session__14" value="is_deleted : tinyint(1) · 软删除标记" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
           <mxGeometry y="368" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="p0_dw_studio_session__14" value="is_deleted : tinyint(1) · 软删除标记" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="394" width="480" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="p0_dw_studio_session__15" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_session" vertex="1">
-          <mxGeometry y="420" width="480" height="26" as="geometry" />
+          <mxGeometry y="394" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_message" value="dw_studio_message" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-400" y="-230" width="300" height="316" as="geometry" />
@@ -125,7 +122,7 @@
           <mxGeometry y="280" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="360" y="640" width="300" height="510" as="geometry" />
+          <mxGeometry x="380" y="660" width="300" height="510" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_cell__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_cell" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -367,6 +364,9 @@
         </mxCell>
         <mxCell id="e0_10" value="flow_id（bench 场景）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="p0_bench_flow" target="p0_dw_a2ui_chart_cell__4" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0_dw_studio_session__13" value="version : int · ext_json CAS 乐观锁版本号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="510" width="480" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
