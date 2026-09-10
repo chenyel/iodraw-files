@@ -395,40 +395,40 @@
           <mxGeometry y="458" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-59" value="dw_session_asset_ref【Studio会话-资产绑定表：空=继承项目圈选，非空=会话自定义生效集】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-350" width="380" height="344" as="geometry" />
+          <mxGeometry x="-1100" y="-210" width="370" height="344" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-60" value="PK  id : bigint unsigned · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="30" width="380" height="26" as="geometry" />
+          <mxGeometry y="30" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-61" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="56" width="380" height="26" as="geometry" />
+          <mxGeometry y="56" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-62" value="◆ asset_type : varchar(32) · 路由键：KM_ENTRY→km_entry.biz_id｜FIXED_VIEW/UPLOADED_FILE→dw_asset.biz_id（双体系并存期区分解析路径）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="82" width="380" height="40" as="geometry" />
+          <mxGeometry y="82" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-63" value="FK  asset_id : varchar(64) · KM_ENTRY→km_entry.biz_id｜其余→dw_asset.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="122" width="380" height="26" as="geometry" />
+          <mxGeometry y="122" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-64" value="FK  asset_version_id : varchar(32) · 绑定版本号：KM_ENTRY→km_entry_version.version｜其余→dw_asset_version.version（取绑定时刻最新已发布，服务端解析不信任前端）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="148" width="380" height="40" as="geometry" />
+          <mxGeometry y="148" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-65" value="title_snapshot : varchar(256) · 绑定时标题快照（列表展示免查库；版本不可变故恒准）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="188" width="380" height="26" as="geometry" />
+          <mxGeometry y="188" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-66" value="bound_by : varchar(64) · 绑定操作人 MIS（审计）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="214" width="380" height="26" as="geometry" />
+          <mxGeometry y="214" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-67" value="bound_at : datetime · 绑定时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="240" width="380" height="26" as="geometry" />
+          <mxGeometry y="240" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-68" value="is_deleted : tinyint(1) · 软删除（1=解绑，解到空集自动回落项目圈选）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="266" width="380" height="26" as="geometry" />
+          <mxGeometry y="266" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-69" value="updated_time : datetime · 最后更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="292" width="380" height="26" as="geometry" />
+          <mxGeometry y="292" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-70" value="索引：uk_session_asset(session_id,asset_id) 一个会话一个资产一条，重复绑=换版本｜idx_asset(type,id) 按资产反查会话｜idx_session 列表查询" style="text;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#666666;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-59">
-          <mxGeometry y="318" width="380" height="26" as="geometry" />
+          <mxGeometry y="318" width="370" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
