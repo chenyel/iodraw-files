@@ -273,6 +273,11 @@
             <mxGeometry x="240" y="2510" width="420" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="/Users/chengxl_mt/dev/pro/intelligence-datastudio/docs/database/schema.dbml" link="/Users/chengxl_mt/dev/pro/intelligence-datastudio/docs/database/schema.dbml" id="zHNCKW6bVqAMfOkp1HUz-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="370" y="300" width="460" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
