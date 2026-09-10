@@ -500,7 +500,7 @@
           <mxGeometry y="212" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_studio_cell" value="dw_studio_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="440" y="30" width="280" height="316" as="geometry" />
+          <mxGeometry x="430" y="384" width="280" height="316" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_studio_cell__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_4._dw_studio_cell" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
@@ -590,7 +590,7 @@
           <mxGeometry y="186" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_a2ui_chart_cell" value="dw_a2ui_chart_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="302" width="280" height="238" as="geometry" />
+          <mxGeometry x="730" y="24" width="280" height="238" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_a2ui_chart_cell__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_4._dw_a2ui_chart_cell" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
