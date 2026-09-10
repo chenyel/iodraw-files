@@ -499,8 +499,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-111" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-240" width="120" height="60" as="geometry" />
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-111" value="tool 这里后续如果扩展可以绑定产生的cellId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
