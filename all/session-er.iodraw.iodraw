@@ -179,67 +179,67 @@
           <mxGeometry y="446" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="780" y="-54" width="300" height="562" as="geometry" />
+          <mxGeometry x="780" y="-54" width="340" height="566" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="30" width="300" height="26" as="geometry" />
+          <mxGeometry y="30" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__1" value="UK  biz_id : varchar(64) · 业务唯一标识（Snowflake）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="56" width="300" height="26" as="geometry" />
+          <mxGeometry y="56" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__2" value="FK  session_id : varchar(64) · → dw_studio_session.biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="82" width="300" height="26" as="geometry" />
+          <mxGeometry y="82" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__3" value="conv_id : varchar(128) · 1024 会话 ID（冗余，webhook 反查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="108" width="300" height="26" as="geometry" />
+          <mxGeometry y="108" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__4" value="tool_call_id : varchar(128) · 工具调用 ID（PRE/POST 配对；AGENT_COMPLETE 为空）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="134" width="300" height="26" as="geometry" />
+          <mxGeometry y="134" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__5" value="event_type : varchar(32) · PRE_TOOL_USE / POST_TOOL_USE / AGENT_COMPLETE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="160" width="300" height="26" as="geometry" />
+          <mxGeometry y="160" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__6" value="tool_name : varchar(128) · 底层工具名（如 bash）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="186" width="300" height="26" as="geometry" />
+          <mxGeometry y="186" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__7" value="tool_cli : varchar(64) · bash 工具的 cli（如 curl）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="212" width="300" height="26" as="geometry" />
+          <mxGeometry y="212" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__8" value="tool_skill : varchar(128) · skill 工具的技能名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="238" width="300" height="26" as="geometry" />
+          <mxGeometry y="238" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__9" value="description : varchar(512) · toolArguments.description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="264" width="300" height="26" as="geometry" />
+          <mxGeometry y="264" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__10" value="arguments_json : longtext · toolArguments 全量（脱敏+截断）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="290" width="300" height="30" as="geometry" />
+          <mxGeometry y="290" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__11" value="result_text : longtext · toolResult 全量（脱敏+截断）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="320" width="300" height="26" as="geometry" />
+          <mxGeometry y="320" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__12" value="success : tinyint(1) · 是否成功（POST 有值）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="346" width="300" height="26" as="geometry" />
+          <mxGeometry y="346" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__13" value="execution_time_ms : int · 执行耗时（ms）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="372" width="300" height="26" as="geometry" />
+          <mxGeometry y="372" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__14" value="sub_agent : tinyint(1) · 是否子 agent 触发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="398" width="300" height="26" as="geometry" />
+          <mxGeometry y="398" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__15" value="subagent_name : varchar(128) · 子 agent 名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="424" width="300" height="26" as="geometry" />
+          <mxGeometry y="424" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__16" value="user_mis : varchar(64) · 触发用户 MIS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="450" width="300" height="26" as="geometry" />
+          <mxGeometry y="450" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__17" value="ac_dedup : varchar(160) · 幂等键（uk_session_ac: session_id+ac_dedup+event_type）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="476" width="300" height="34" as="geometry" />
+          <mxGeometry y="476" width="340" height="34" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__18" value="tool_call_count / total_tokens / e2e_ms : int · AGENT_COMPLETE 汇总" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="510" width="300" height="26" as="geometry" />
+          <mxGeometry y="510" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__19" value="version / is_deleted / created_time / updated_time · 乐观锁 / 软删 / 时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="536" width="300" height="26" as="geometry" />
+          <mxGeometry y="540" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report" value="dw_a2ui_report" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-540" y="230" width="300" height="316" as="geometry" />
