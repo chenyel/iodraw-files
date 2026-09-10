@@ -493,8 +493,10 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-103" value="asset_type=KM_ENTRY 时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-91" target="HjvIDd6hiY2p9tp-m5TG-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-91" target="HjvIDd6hiY2p9tp-m5TG-97">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" target="HjvIDd6hiY2p9tp-m5TG-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-870" y="-180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-105" value="(entry_biz_id,version)（版本锁定）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-92" target="HjvIDd6hiY2p9tp-m5TG-100">
           <mxGeometry relative="1" as="geometry" />
