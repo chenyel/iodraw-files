@@ -440,7 +440,7 @@
           <mxGeometry y="396" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-93" value="km_entry【知识条目】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-1560" y="-340" width="200" height="82" as="geometry" />
+          <mxGeometry x="-1490" y="-315" width="200" height="82" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-94" value="PK  biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-93">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
@@ -449,7 +449,7 @@
           <mxGeometry y="56" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-96" value="dw_asset【dw自有资产】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-1570" y="-172" width="200" height="100" as="geometry" />
+          <mxGeometry x="-1500" y="-147" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-97" value="PK  biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
@@ -458,7 +458,7 @@
           <mxGeometry y="56" width="200" height="44" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-99" value="km_entry_version【不可变版本】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-1550" y="-510" width="200" height="82" as="geometry" />
+          <mxGeometry x="-1480" y="-485" width="200" height="82" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-100" value="UK  (entry_biz_id, version)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-99">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
