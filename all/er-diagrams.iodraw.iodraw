@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17" pages="12">
   <diagram id="er2647279324" name="1. 知识管理（KM，data-agent-km 模块）">
-    <mxGraphModel dx="1242" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="586" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1560" pageHeight="586" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry y="108" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_1._km_space_member" value="km_space_member" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="500" y="20" width="280" height="134" as="geometry" />
+          <mxGeometry x="500" y="-50" width="280" height="134" as="geometry" />
         </mxCell>
         <mxCell id="t_1._km_space_member__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_1._km_space_member" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry y="212" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_1._km_entry_version" value="km_entry_version" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="90" y="400" width="280" height="212" as="geometry" />
+          <mxGeometry x="100" y="390" width="280" height="212" as="geometry" />
         </mxCell>
         <mxCell id="t_1._km_entry_version__id" value="PK  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="t_1._km_entry_version" vertex="1">
           <mxGeometry y="30" width="280" height="26" as="geometry" />
