@@ -278,6 +278,11 @@
             <mxGeometry x="370" y="300" width="460" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="/Users/chengxl_mt/dev/pro/intelligence-datastudio/docs/database/er-diagrams.iodraw" link="/Users/chengxl_mt/dev/pro/intelligence-datastudio/docs/database/er-diagrams.iodraw" id="IkUiKkfECWgEUfpwKI5N-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="200" y="320" width="490" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
