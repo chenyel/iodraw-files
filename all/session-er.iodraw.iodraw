@@ -382,7 +382,7 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-29" value="发送时造骨架，回调时填血肉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-610" y="-420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-31" value="帮我查下天气；&lt;div&gt;调用天气工具；&lt;/div&gt;&lt;div&gt;天气良好&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-31" value="帮我查下天气；&lt;div&gt;调用天气工具；&lt;/div&gt;&lt;div&gt;天气良好&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;调用工具B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
