@@ -278,7 +278,7 @@
           <mxGeometry y="340" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell" value="dw_a2ui_chart_cell" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="610" width="300" height="490" as="geometry" />
+          <mxGeometry x="-570" y="610" width="300" height="514" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -305,22 +305,22 @@
           <mxGeometry y="296" width="300" height="38" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__8" value="base_spec_json : mediumtext · 编译产物 ChartSpec JSON（只读）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="334" width="300" height="26" as="geometry" />
+          <mxGeometry y="334" width="300" height="36" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__9" value="user_overrides_json : mediumtext · 用户覆盖 JSON（DeepMerge 到 base）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="360" width="300" height="26" as="geometry" />
+          <mxGeometry y="370" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__10" value="compile_result_json : text · 编译校验结果 JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="386" width="300" height="26" as="geometry" />
+          <mxGeometry y="410" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__11" value="version : int · 乐观锁版本号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="412" width="300" height="26" as="geometry" />
+          <mxGeometry y="436" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__12" value="is_deleted : tinyint(1) · 软删除标记" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="438" width="300" height="26" as="geometry" />
+          <mxGeometry y="462" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_chart_cell__13" value="created_time / updated_time : datetime · 创建 / 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_a2ui_chart_cell" vertex="1">
-          <mxGeometry y="464" width="300" height="26" as="geometry" />
+          <mxGeometry y="488" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_agent" value="dw_agent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="589" width="300" height="30" as="geometry" />
