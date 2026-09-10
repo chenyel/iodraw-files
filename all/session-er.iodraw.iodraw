@@ -179,7 +179,7 @@
           <mxGeometry y="446" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event" value="dw_studio_tool_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="780" y="-54" width="300" height="554" as="geometry" />
+          <mxGeometry x="780" y="-54" width="300" height="570" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__0" value="PK  id : bigint · 自增主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="p0_dw_studio_tool_event" vertex="1">
           <mxGeometry y="30" width="300" height="26" as="geometry" />
@@ -239,7 +239,7 @@
           <mxGeometry y="502" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_studio_tool_event__19" value="version / is_deleted / created_time / updated_time · 乐观锁 / 软删 / 时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="p0_dw_studio_tool_event" vertex="1">
-          <mxGeometry y="528" width="300" height="26" as="geometry" />
+          <mxGeometry y="528" width="300" height="42" as="geometry" />
         </mxCell>
         <mxCell id="p0_dw_a2ui_report" value="dw_a2ui_report" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-540" y="230" width="300" height="316" as="geometry" />
