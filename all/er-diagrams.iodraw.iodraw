@@ -617,10 +617,10 @@
           <mxGeometry y="212" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_agent" value="dw_agent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="328" width="280" height="30" as="geometry" />
+          <mxGeometry x="-360" y="320" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_4._dw_project" value="dw_project" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#F5F5F5;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="780" y="354" width="280" height="30" as="geometry" />
+          <mxGeometry x="-360" y="400" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e4._0" value="绑定 Agent" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;" parent="1" source="t_4._dw_agent" target="t_4._dw_studio_session__agent_id" edge="1">
           <mxGeometry relative="1" as="geometry" />
