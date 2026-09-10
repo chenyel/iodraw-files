@@ -344,7 +344,7 @@
           <mxGeometry x="-480" y="-880" width="600" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-29" value="发送时造骨架，回调时填血肉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="-410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-525" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-31" value="帮我查下天气；&lt;div&gt;调用天气工具；&lt;/div&gt;&lt;div&gt;天气良好&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;调用工具B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="-140" width="120" height="60" as="geometry" />
@@ -353,7 +353,7 @@
           <mxGeometry x="-890" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-33" value="dw_studio_message【消息表：一轮=request_id+2行】【流水】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="-350" width="370" height="544" as="geometry" />
+          <mxGeometry x="-640" y="-460" width="370" height="544" as="geometry" />
         </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-34" value="PK  id : bigint · 自增主键（纯技术件，业务不按它查）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-33">
           <mxGeometry y="30" width="370" height="26" as="geometry" />
