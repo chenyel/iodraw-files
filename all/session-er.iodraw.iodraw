@@ -484,12 +484,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-108" value="session_id（一会话一份有效报告，替换式更新）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERzeroToOne;endArrow=ERzeroToOne;" edge="1" parent="1">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-108" value="session_id（一会话一份有效报告，替换式更新）" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERzeroToOne;endArrow=ERzeroToOne;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HjvIDd6hiY2p9tp-m5TG-77">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="20" y="13" as="sourcePoint" />
-            <mxPoint x="-950" y="597" as="targetPoint" />
+            <mxPoint x="160" y="-140" as="sourcePoint" />
+            <mxPoint x="-810" y="444" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-680" y="110" />
+              <mxPoint x="-540" y="-43" />
             </Array>
           </mxGeometry>
         </mxCell>
