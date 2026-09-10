@@ -445,6 +445,17 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-97" value="PK  biz_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="20" as="sourcePoint" />
+            <mxPoint x="-140" y="313" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="260" />
+              <mxPoint x="-40" y="230" />
+              <mxPoint x="-40" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-98" value="asset_type: FIXED_VIEW/UPLOADED_FILE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-96">
           <mxGeometry y="56" width="200" height="26" as="geometry" />
         </mxCell>
@@ -457,21 +468,10 @@
         <mxCell id="HjvIDd6hiY2p9tp-m5TG-101" value="content=S3 key · is_published" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HjvIDd6hiY2p9tp-m5TG-99">
           <mxGeometry y="56" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-103" value="asset_type=KM_ENTRY 时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1115" as="sourcePoint" />
-            <mxPoint x="-1490" y="173" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-1320" y="207" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HjvIDd6hiY2p9tp-m5TG-104" value="其余类型时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-71" target="HjvIDd6hiY2p9tp-m5TG-97">
+        <mxCell id="HjvIDd6hiY2p9tp-m5TG-103" value="asset_type=KM_ENTRY 时 asset_id→biz_id" style="edgeStyle=entityRelationEdgeStyle;fontSize=11;html=1;rounded=0;startArrow=ERone;endArrow=ERmany;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HjvIDd6hiY2p9tp-m5TG-71" target="HjvIDd6hiY2p9tp-m5TG-94">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1080" y="70" />
-              <mxPoint x="-1090" y="40" />
-              <mxPoint x="-1090" y="40" />
+              <mxPoint x="-1090" y="37" />
             </Array>
           </mxGeometry>
         </mxCell>
